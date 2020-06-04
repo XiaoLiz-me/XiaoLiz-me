@@ -15,7 +15,7 @@ deploy:
   skip-cleanup: true
   github-token: $GH_TOKEN  # travis环境变量设置的名称
   keep-history: true      # 是否保持target-branch分支的提交记录
-  target-branch: master   # 要将静态站点文件发布到哪个分支
+  #target-branch: master   # 要将静态站点文件发布到哪个分支
   on:
     branch: dev        # 博客源码的分支
-  local-dir: public         # 本地发布文件目录
+  local-dir: public     # 本地发布文件目录
