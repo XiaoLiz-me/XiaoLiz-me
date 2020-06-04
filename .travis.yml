@@ -16,7 +16,7 @@ deploy:
   skip-cleanup: true
   github-token: $GH_TOKEN
   keep-history: true      # 是否保持target-branch分支的提交记录
-  target-branch: master   # 要将静态站点文件发布到哪个分支
+  #target-branch: master   # 要将静态站点文件发布到哪个分支
   on:
     branch: dev        # 博客源码的分支
   local-dir: public
