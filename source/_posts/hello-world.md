@@ -2,9 +2,9 @@
 title: Hello World
 ---
 
-#### test travis ci
+#### test travis ci 自动化部署
 
-644521f8685da6ea6bf3f42f11623a8fa87a109f
+
 
 ## Quick Start
 
