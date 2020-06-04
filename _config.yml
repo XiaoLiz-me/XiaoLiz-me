@@ -98,4 +98,10 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
+<<<<<<< HEAD
   type: ''
+=======
+  type: git
+  repo: https://github.com/XiaoLiz-me/XiaoLiz-me.github.io
+  branch: master  #发布到master分支
+>>>>>>> 2def6e9160a6daeccca7cdb0cb4da27d834042a0

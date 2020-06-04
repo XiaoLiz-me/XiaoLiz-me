@@ -4,4 +4,11 @@ db.json
 *.log
 node_modules/
 public/
+<<<<<<< HEAD
 .deploy*/
+=======
+.deploy*/
+
+package-lock.json
+yarn.lock
+>>>>>>> 2def6e9160a6daeccca7cdb0cb4da27d834042a0

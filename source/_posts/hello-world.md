@@ -1,7 +1,14 @@
 ---
 title: Hello World
 ---
+<<<<<<< HEAD
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+=======
+
+#### test travis ci 自动化部署1
+
+
+>>>>>>> 2def6e9160a6daeccca7cdb0cb4da27d834042a0
 
 ## Quick Start
 
