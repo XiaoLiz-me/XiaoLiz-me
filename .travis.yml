@@ -1,0 +1,21 @@
+language: node_js
+node_js: stable
+
+# 分支白名单限制:会触发travis ci构建
+branches:
+  only:
+    - dev # travis编译分支
+
+script:
+  - hexo clean    # 清除缓存文件
+  - hexo generate # 生成静态文件
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GH_TOKEN  # travis环境变量设置的名称
+  keep-history: true      # 是否保持target-branch分支的提交记录
+  target-branch: master   # 要将静态站点文件发布到哪个分支
+  on:
+    branch: dev        # 博客源码的分支
+  local-dir: public         # 本地发布文件目录
